@@ -18,6 +18,13 @@ function IsPSWUAvailable {
     return $false
 }
 
+function IsChocoAvailable {
+    if(test-path "C:\ProgramData\chocolatey\choco.exe"){
+        return $true
+    }
+    return $false
+}
+
 function CheckAndInstallUpdates{
     Write-Host "Checking for all updates"
     ## Start by upgrading winget & choco packages
@@ -42,6 +49,10 @@ function InstallNuGet{
     Install-PackageProvider -Name Nuget -Force
 }
 
+function InstallChocolatey{
+    iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+}
+
 if(IsNuGetAvailable){
     Write-Host "NuGet exitst"
 } else {
@@ -56,6 +67,15 @@ if(IsPSWUAvailable){
     InstallPSWindowsUpdate
 }
 
+if(IsChocoAvailable){
+    $testchoco = powershell choco -v
+    Write-Output "Chocolatey Version $testchoco is already installed, continuing" 
+} else {    
+    Write-Output "Seems Chocolatey is not installed, installing now"
+    InstallChocolatey
+}
+
+# Check for and install Windows Updates
 CheckAndInstallUpdates
 
 Write-Host "Setting exection policy to Restricted"

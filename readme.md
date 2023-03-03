@@ -46,9 +46,9 @@ Installs the following programs automatically:
 - DigitalMicroscopeSuite2
 - ESP32.MPY-Jama
 - Flatcam
-- Wegstr 
+- Wegstr (PCB milling machines)
 
-### Further tuning: 
+### Further tuning for Lab setup
 
 #### Inkscape
 
@@ -75,4 +75,4 @@ Tool -> Boards ->Board manager -> Search for:
 
 #### Fab library for Kicad
 
-- https://gitlab.fabcloud.org/pub/libraries/electronics/kicad
+- https://gitlab.fabcloud.org/pub/libraries/electronics/kicad (Use git or KiCAD autoupdate(?))

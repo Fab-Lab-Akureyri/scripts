@@ -3,14 +3,6 @@
 
 # Set-ExecutionPolicy Bypass
 
-if(test-path "C:\ProgramData\chocolatey\choco.exe"){
-    $testchoco = powershell choco -v
-    Write-Output "Chocolatey Version $testchoco is already installed, continuing" 
-} else {
-    Write-Output "Seems Chocolatey is not installed, installing now"
-    iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-}
-
 # Install winget programs
 winget install --id=ArduinoSA.IDE.stable  -e
 winget install --id=Autodesk.EAGLE  -e
