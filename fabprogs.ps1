@@ -1,3 +1,8 @@
+# Run the script with admin powershell
+# Run following command before running the script
+
+# Set-ExecutionPolicy Bypass
+
 if(test-path "C:\ProgramData\chocolatey\choco.exe"){
     $testchoco = powershell choco -v
     Write-Output "Chocolatey Version $testchoco is already installed, continuing" 
@@ -31,3 +36,6 @@ choco install meshmixer
 choco install autodesk-fusion360
 
 choco feature disable -n=allowGlobalConfirmation
+
+Write-Host "Setting exection policy to Restricted"
+Set-ExecutionPolicy Restricted
