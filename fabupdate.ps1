@@ -1,10 +1,7 @@
-# Run the following before running the script
-# Set-ExecutionPolicy Bypass
+# Run the script with admin powershell
+# Run following command before running the script
 
-## Start by upgrading winget & choco packages
-winget upgrade --all
-choco upgrade chocolatey
-choco upgrade all --acceptlicense --yes --limitoutput
+# Set-ExecutionPolicy Bypass
 
 function IsNuGetAvailable {
     if(Get-PackageProvider -ListAvailable -Name NuGet){
@@ -22,16 +19,17 @@ function IsPSWUAvailable {
 }
 
 function CheckAndInstallUpdates{
-    Write-Host "Checking for updates"
-    #Get-WindowsUpdate
+    Write-Host "Checking for all updates"
+    ## Start by upgrading winget & choco packages
+    winget upgrade --all
+    choco upgrade chocolatey
+    choco upgrade all --acceptlicense --yes --limitoutput
+    ## Install Windows updates
     Install-WindowsUpdate -AcceptAll -AutoReboot
-    Get-WURebootStatus
 }
 
 function InstallPSWindowsUpdate{
     Write-Host "Installing PSWindowsUpdate"
-    #Write-Host "Setting exection policy to RemoteSigned"
-    #Set-ExecutionPolicy RemoteSigned
     Install-Module -Name PSWindowsUpdate -Force
     Write-Host "Importing module to session"
     Import-Module PSWindowsUpdate
@@ -39,11 +37,8 @@ function InstallPSWindowsUpdate{
 
 function InstallNuGet{
     Write-Host "Installing NuGet"
-    #Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
-
     #https://stackoverflow.com/questions/51406685/powershell-how-do-i-install-the-nuget-provider-for-powershell-on-a-unconnected
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-    #Install-PackageProvider -Name NuGet
     Install-PackageProvider -Name Nuget -Force
 }
 

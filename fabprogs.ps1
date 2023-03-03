@@ -21,6 +21,8 @@ winget install --id=Microsoft.VisualStudioCode -e
 winget install --id=BlenderFoundation.Blender  -e
 winget install --id=Google.Chrome  -e
 winget install --id=FreeCAD.FreeCAD  -e
+winget install --id=Inkscape.Inkscape  -e
+winget install --id=OpenSCAD.OpenSCAD  -e
 
 # Install choco programs
 choco feature enable -n=allowGlobalConfirmation
