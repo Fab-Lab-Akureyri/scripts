@@ -57,7 +57,7 @@ Installs the following programs automatically:
 
 #### Inkscape
 
-- Inkstich
+- Inkstitch
 
 #### Additinal boards for Arduino IDE
 File -> Preferences -> Additional boards manager: 
