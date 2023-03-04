@@ -15,7 +15,7 @@ Also updates any Winget and Chocolatey packages.
 
 Installs the following programs automatically:
 
-#### Using Winger
+#### Using Winstall
 
 - Arduino IDE (>2.0)
 - Autodesk Eagle
@@ -30,6 +30,7 @@ Installs the following programs automatically:
 - MS VSCode
 - Blender
 - Chrome
+- Firefox DE
 - Freecad
 - Inkscape
 - OpenSCAD

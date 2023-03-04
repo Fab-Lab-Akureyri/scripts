@@ -4,8 +4,8 @@
 # Set-ExecutionPolicy Bypass
 
 # Install winget programs
-winget install --id=ArduinoSA.IDE.stable  -e
-winget install --id=Autodesk.EAGLE  -e
+winget install --id=ArduinoSA.IDE.stable -e
+winget install --id=Autodesk.EAGLE -e
 winget install --id=GIMP.GIMP -e
 winget install --id=Git.Git -e
 winget install --id=KiCad.KiCad -e
@@ -15,11 +15,12 @@ winget install --id=SyncTrayzor.SyncTrayzor -e
 winget install --id=AivarAnnamaa.Thonny -e
 winget install --id=Ultimaker.Cura -e
 winget install --id=Microsoft.VisualStudioCode -e
-winget install --id=BlenderFoundation.Blender  -e
-winget install --id=Google.Chrome  -e
-winget install --id=FreeCAD.FreeCAD  -e
-winget install --id=Inkscape.Inkscape  -e
-winget install --id=OpenSCAD.OpenSCAD  -e
+winget install --id=BlenderFoundation.Blender -e
+winget install --id=Google.Chrome -e
+winget install --id=Mozilla.Firefox.DeveloperEdition -v "111.0b6" -e
+winget install --id=FreeCAD.FreeCAD -e
+winget install --id=Inkscape.Inkscape -e
+winget install --id=OpenSCAD.OpenSCAD -e
 
 # Install choco programs
 choco feature enable -n=allowGlobalConfirmation
