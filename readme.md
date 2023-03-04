@@ -34,6 +34,10 @@ Installs the following programs automatically:
 - Freecad
 - Inkscape
 - OpenSCAD
+- MS DotNet Framework 4
+- Notepad++
+- 7zip
+- VLC
 
 #### Using Chocolatey
 

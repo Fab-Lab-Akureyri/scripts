@@ -21,6 +21,10 @@ winget install --id=Mozilla.Firefox.DeveloperEdition -v "111.0b6" -e
 winget install --id=FreeCAD.FreeCAD -e
 winget install --id=Inkscape.Inkscape -e
 winget install --id=OpenSCAD.OpenSCAD -e
+winget install --id=Microsoft.DotNet.Framework.DeveloperPack_4  -e
+winget install --id=Notepad++.Notepad++ -e  
+winget install --id=7zip.7zip -e 
+winget install --id=VideoLAN.VLC -e 
 
 # Install choco programs
 choco feature enable -n=allowGlobalConfirmation
