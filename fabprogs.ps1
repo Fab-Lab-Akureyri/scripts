@@ -31,7 +31,6 @@ choco feature enable -n=allowGlobalConfirmation
 
 choco install meshmixer
 choco install autodesk-fusion360
-choco install slic3r
 
 choco feature disable -n=allowGlobalConfirmation
 
