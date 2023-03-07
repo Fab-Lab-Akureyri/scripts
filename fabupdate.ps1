@@ -1,7 +1,7 @@
 # Run the script with admin powershell
 # Run following command before running the script
 
-# Set-ExecutionPolicy Bypass
+Set-ExecutionPolicy Bypass -Force
 
 function IsNuGetAvailable {
     if(Get-PackageProvider -ListAvailable -Name NuGet){
