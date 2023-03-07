@@ -1,7 +1,4 @@
 # Run the script with admin powershell
-# Run following command before running the script
-
-# Set-ExecutionPolicy Bypass
 
 # Install winget programs
 winget install --id=ArduinoSA.IDE.stable -e
@@ -34,6 +31,3 @@ choco install meshmixer
 choco install autodesk-fusion360
 
 choco feature disable -n=allowGlobalConfirmation
-
-Write-Host "Setting exection policy to Restricted"
-Set-ExecutionPolicy Restricted

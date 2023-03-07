@@ -1,7 +1,4 @@
 # Run the script with admin powershell
-# Run following command before running the script
-
-Set-ExecutionPolicy Bypass -Force
 
 function IsNuGetAvailable {
     if(Get-PackageProvider -ListAvailable -Name NuGet){
@@ -77,6 +74,3 @@ if(IsChocoAvailable){
 
 # Check for and install Windows Updates
 CheckAndInstallUpdates
-
-Write-Host "Setting exection policy to Restricted"
-Set-ExecutionPolicy Restricted
