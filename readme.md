@@ -4,6 +4,10 @@ Scripts to hopefully simplify the Fab Lab life.
 
 The scripts are aimed at the machines in the computer lab, all Windows machines. 
 
+Make sure Execution policy is set to RemoteSigned
+
+    Set-ExecutionPolicy RemoteSigned
+
 ## Scripts:
 
 ###  fabupdate.ps1
