@@ -1,6 +1,7 @@
 # Run the script with admin powershell
 
 # Install winget programs
+winget install --id=Adobe.Acrobat.Reader.64-bit  -e
 winget install --id=ArduinoSA.IDE.stable -e
 winget install --id=Autodesk.EAGLE -e
 winget install --id=GIMP.GIMP -e

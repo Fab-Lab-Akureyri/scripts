@@ -33,6 +33,7 @@ Installs/upgrades the following programs automatically:
 
 |   Via Winstall/Winget     | Via Chocolatey    |
 |           ---             |       ---         |
+|   Acrobat Reader          |                   |
 |   Arduino IDE (>2.0)      |   MeshMixer       |                       
 |   Autodesk Eagle          |   Fusion360       |                   
 |   Gimp                    |                   |           
