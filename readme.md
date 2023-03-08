@@ -4,7 +4,9 @@ Scripts to hopefully simplify the Fab Lab life.
 
 The scripts are aimed at the machines in the computer lab, all Windows machines. 
 
-Make sure Execution policy is set to RemoteSigned
+Make sure Execution policy is set to `RemoteSigned`
+
+Using Administrative PowerShell, run: 
 
     Set-ExecutionPolicy RemoteSigned
 
@@ -12,56 +14,52 @@ Make sure Execution policy is set to RemoteSigned
 
 ###  fabupdate.ps1
 
-Installes the needed packages to automatically update Windows.
+Installs the needed packages to automatically update Windows.
 Also updates any Winget and Chocolatey packages. 
 
 ### fabprogs.ps1
 
-Installs the following programs automatically:
+Installs/upgrades the following programs automatically:
 
-#### Using Winstall
+|   Via Winstall/Winget     | Via Chocolatey    |
+|           ---             |       ---         |
+|   Arduino IDE (>2.0)      |   MeshMixer       |                       
+|   Autodesk Eagle          |   Fusion360       |                   
+|   Gimp                    |                   |           
+|   Git                     |                   |       
+|   KiCad (>7)              |                   |               
+|   LibreOffice             |                   |               
+|   PrusaSlicer             |                   |               
+|   SyncTrayzor             |                   |               
+|   Thonny (>4)             |                   |               
+|   Ultimaker Cura          |                   |                   
+|   MS VSCode               |                   |               
+|   Blender                 |                   |           
+|   Chrome                  |                   |           
+|   Firefox                 |                   |           
+|   FreeCAD                 |                   |           
+|   Inkscape                |                   |               
+|   OpenSCAD                |                   |               
+|   MS DotNet Framework 4   |                   |                           
+|   Notepad++               |                   |               
+|   7zip                    |                   |           
+|   VLC                     |                   |       
+|   WinZip                  |                   |           
 
-- Arduino IDE (>2.0)
-- Autodesk Eagle
-- Gimp
-- Git
-- KiCad (>7)
-- LibreOffice
-- PrusaSlicer
-- SyncTrayzor
-- Thonny (>4)
-- Ultimaker Cura
-- MS VSCode
-- Blender
-- Chrome
-- Firefox DE
-- Freecad
-- Inkscape
-- OpenSCAD
-- MS DotNet Framework 4
-- Notepad++
-- 7zip
-- VLC
+###  Additional programs requiring manual install: 
 
-#### Using Chocolatey
-
-- Meshmixer
-- Fusion360
-
-###  Programs requiring manual install: 
-
-- VCarve for Shopbot (+clipart, postprocessors)
+- VCarve for Shopbot (+clipart, post-processors)
 - Arudino IDE 1.8 (needed?)
 - DigitalMicroscopeSuite2
 - ESP32.MPY-Jama
 - Flatcam
 - Wegstr (PCB milling machines)
 
-### Further tuning for Lab setup
+### Further addons for Fab Lab setup
 
 #### Inkscape
 
-- Inkstitch
+- [Inkstitch](https://inkstitch.org/) for the embroidery machine
 
 #### Additinal boards for Arduino IDE
 File -> Preferences -> Additional boards manager: 
@@ -78,10 +76,10 @@ Tool -> Boards ->Board manager -> Search for:
 
 #### Additional libraries for Arduino IDE
 
-- Add adafruit-neopixel to libraries
 - Update libraries
 - Update boards
+- Add any common libraries, such as Adafruit-Neopixel
 
 #### Fab library for Kicad
 
-- https://gitlab.fabcloud.org/pub/libraries/electronics/kicad (Use git or KiCAD autoupdate(?))
+- https://gitlab.fabcloud.org/pub/libraries/electronics/kicad (Use the git method for easy updates)
