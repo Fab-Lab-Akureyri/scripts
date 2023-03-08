@@ -51,7 +51,7 @@ function InstallChocolatey{
 }
 
 if(IsNuGetAvailable){
-    Write-Host "NuGet exitst"
+    Write-Host "NuGet exists"
 } else {
     Write-Host "Nuget does not exist"
     InstallNuGet

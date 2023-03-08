@@ -4,11 +4,21 @@ Scripts to hopefully simplify the Fab Lab life.
 
 The scripts are aimed at the machines in the computer lab, all Windows machines. 
 
-Make sure Execution policy is set to `RemoteSigned`
+## Usage
+
+Download or clone the repo. Enter directory. 
+
+You need to set Windows Execution Policy to either 'RemoteSigned' or 'Bypass' 
 
 Using Administrative PowerShell, run: 
 
     Set-ExecutionPolicy RemoteSigned
+
+or 
+
+    Set-ExecutionPolicy Bypass
+
+Note: If you need to use `Bypass`, it's recommended to set the policy to RemoteSigned for security reasons. 
 
 ## Scripts:
 
