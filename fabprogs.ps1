@@ -25,6 +25,10 @@ winget install --id=7zip.7zip -e
 winget install --id=VideoLAN.VLC -e
 winget install --id=RustDesk.RustDesk -e
 
+###
+winget uninstall winzip
+###
+
 # Install choco programs
 choco feature enable -n=allowGlobalConfirmation
 
