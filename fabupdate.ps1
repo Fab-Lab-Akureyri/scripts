@@ -30,6 +30,9 @@ function CheckAndInstallUpdates{
     choco upgrade all --acceptlicense --yes --limitoutput
     ## Install Windows updates
     Install-WindowsUpdate -AcceptAll -AutoReboot
+    Add-WUServiceManager -ServiceID "7971f918-a847-4430-9279-4a52d1efe18d" -AddServiceFlag 7 -Confirm:$false
+    Install-WindowsUpdate -Install -AcceptAll -UpdateType Driver -MicrosoftUpdate -ForceDownload -ForceInstall -IgnoreReboot -ErrorAction SilentlyContinue 
+    Install-WindowsUpdate -Install -AcceptAll -UpdateType Driver -MicrosoftUpdate -ForceDownload -ForceInstall -IgnoreReboot -ErrorAction SilentlyContinue
 }
 
 function InstallPSWindowsUpdate{

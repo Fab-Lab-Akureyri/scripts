@@ -23,7 +23,7 @@ winget install --id=Microsoft.DotNet.Framework.DeveloperPack_4  -e
 winget install --id=Notepad++.Notepad++ -e  
 winget install --id=7zip.7zip -e 
 winget install --id=VideoLAN.VLC -e
-winget install --id=RustDesk.RustDesk -e
+#winget install --id=RustDesk.RustDesk -e
 
 ###
 winget uninstall winzip
