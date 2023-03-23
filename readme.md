@@ -59,12 +59,12 @@ Installs/upgrades the following programs automatically:
 
 ###  Additional programs requiring manual install: 
 
-- VCarve for Shopbot (+clipart, post-processors)
-- Arudino IDE 1.8 (needed?)
-- DigitalMicroscopeSuite2
-- ESP32.MPY-Jama
-- Flatcam
-- Wegstr (PCB milling machines)
+- [VCarve](https://www.vectric.com/products/vcarve-pro) for Shopbot (+clipart, post-processors) - Proprietary software, needs a licence
+- [Arudino IDE 1.8](https://www.arduino.cc/en/software/OldSoftwareReleases) (Old, needed?)
+- [DigitalMicroscopeSuite2](https://www.celestron.com/pages/drivers-and-software)
+- [ESP32.MPY-Jama](https://github.com/jczic/ESP32-MPY-Jama)
+- [Flatcam](https://github.com/jczic/ESP32-MPY-Jama)
+- [Wegstr](https://wegstr.com/) (PCB milling machines)
 
 ### Further addons for Fab Lab setup
 
