@@ -2,7 +2,9 @@
 
 Scripts to hopefully simplify the Fab Lab life. 
 
-The scripts are aimed at the machines in the computer lab, all Windows machines. 
+The scripts are aimed at the machines in our computer lab, all Windows machines.
+
+Adjust to your needs, feel free to create pull requests or be in contact for improvements.
 
 ##  Recommended usage
 
