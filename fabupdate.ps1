@@ -53,6 +53,9 @@ function InstallChocolatey{
     iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 
+# Fetch updates, if any. 
+git pull
+
 if(IsNuGetAvailable){
     Write-Host "NuGet exists"
 } else {

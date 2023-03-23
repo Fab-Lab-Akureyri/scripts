@@ -4,11 +4,13 @@ Scripts to hopefully simplify the Fab Lab life.
 
 The scripts are aimed at the machines in the computer lab, all Windows machines. 
 
-## Usage
+##  Recommended usage
 
-Download or clone the repo. Enter directory. 
+Clone the repo, enter directory.
 
-You need to set Windows Execution Policy to either 'RemoteSigned' or 'Bypass' 
+Run from within the directory, so scripts can update the repo when run.
+
+You need to set Windows Execution Policy to either 'RemoteSigned' or 'Bypass'
 
 Using Administrative PowerShell, run: 
 
