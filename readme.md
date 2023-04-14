@@ -59,9 +59,12 @@ Installs/upgrades the following programs automatically:
 |   Notepad++               |                   |               
 |   7zip                    |                   |           
 |   VLC                     |                   |       
-|   WinZip                  |                   |           
 
 ###  Additional programs requiring manual install: 
+
+[Link](https://drive.google.com/drive/folders/1GQG6Sf1yN15UQpGPBuxfRedFp_9DX9xc) to Fab Lab Google drive folder with the additional programs for prosperity. (Closed folder)
+
+Offical links here:
 
 - [VCarve](https://www.vectric.com/products/vcarve-pro) for Shopbot (+clipart, post-processors) - Proprietary software, needs a licence
 - [Arudino IDE 1.8](https://www.arduino.cc/en/software/OldSoftwareReleases) (Old, needed?)
