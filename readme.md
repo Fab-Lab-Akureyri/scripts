@@ -45,6 +45,7 @@ Installs/upgrades the following programs automatically:
 |   KiCad (>7)              |                   |               
 |   LibreOffice             |                   |               
 |   PrusaSlicer             |                   |               
+|   PrusaSlicer Alpha       |                   |               
 |   SyncTrayzor             |                   |               
 |   Thonny (>4)             |                   |               
 |   Ultimaker Cura          |                   |                   

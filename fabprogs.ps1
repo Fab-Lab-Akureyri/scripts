@@ -12,6 +12,7 @@ winget install --id=Git.Git -e
 winget install --id=KiCad.KiCad -e
 winget install --id=TheDocumentFoundation.LibreOffice -e
 winget install --id=Prusa3D.PrusaSlicer -e
+winget install --id=Prusa3D.PrusaSlicer.Alpha  -e
 winget install --id=SyncTrayzor.SyncTrayzor -e
 winget install --id=AivarAnnamaa.Thonny -e
 winget install --id=Ultimaker.Cura -e
