@@ -12,6 +12,10 @@ Clone the repo, enter directory.
 
 Run from within the directory, so scripts can update the repo when run.
 
+You can choose to run either script or both at once, using the `both.ps1` file. 
+
+`both.ps1` also refreshes the repo. 
+
 You need to set Windows Execution Policy to either 'RemoteSigned' or 'Bypass'
 
 Using Administrative PowerShell, run: 
