@@ -6,6 +6,8 @@ The scripts are aimed at the machines in our computer lab, all Windows machines.
 
 Adjust to your needs, feel free to create pull requests or be in contact for improvements.
 
+**Make sure [App installer](https://apps.microsoft.com/store/detail/uppsetningarforrit/9NBLGGH4NNS1) is installed**
+
 ##  Recommended usage
 
 Clone the repo, enter directory.
