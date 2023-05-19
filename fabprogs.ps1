@@ -30,9 +30,5 @@ winget install --id=VideoLAN.VLC -e
 winget install --id=KDE.Krita -e
 
 # Install choco programs
-choco feature enable -n allowGlobalConfirmation
-
-choco install meshmixer
-choco install autodesk-fusion360
-
-choco feature disable -n allowGlobalConfirmation
+choco install meshmixer -y
+choco install autodesk-fusion360 -y
