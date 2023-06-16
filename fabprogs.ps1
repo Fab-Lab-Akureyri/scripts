@@ -4,7 +4,7 @@ git pull
 # Run the script with admin powershell
 
 # Remove Libre office
-winstall uninstall TheDocumentFoundation.LibreOffice
+winget uninstall TheDocumentFoundation.LibreOffice
 
 # Install winget programs
 winget install --id=Adobe.Acrobat.Reader.64-bit  -e
