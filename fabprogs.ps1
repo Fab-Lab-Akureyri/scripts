@@ -3,6 +3,9 @@ git pull
 
 # Run the script with admin powershell
 
+# Remove Libre office
+winstall uninstall TheDocumentFoundation.LibreOffice
+
 # Install winget programs
 winget install --id=Adobe.Acrobat.Reader.64-bit  -e
 winget install --id=ArduinoSA.IDE.stable -e
