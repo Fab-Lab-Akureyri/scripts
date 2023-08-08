@@ -3,6 +3,12 @@ git pull
 
 # Run the script with admin powershell
 
+# Remove and clean Prusa Slicer Alpha
+winget uninstall Prusa3D.PrusaSlicer.Alpha
+$prusaAlphaPath = $env:LOCALAPPDATA + "\Microsoft\WinGet\Packages\Prusa3D.PrusaSlicer.Alpha*"
+Remove-Item $prusaAlphaPath -Verbose -Recurse
+
+
 # Remove Libre office
 winget uninstall TheDocumentFoundation.LibreOffice
 
