@@ -6,6 +6,9 @@ git pull
 # Remove Libre office
 winget uninstall TheDocumentFoundation.LibreOffice
 
+# Remove Prusa Slicer Alpha 
+Prusa3D.PrusaSlicer.Alpha
+
 # Install winget programs
 winget install --id=Adobe.Acrobat.Reader.64-bit  -e
 winget install --id=ArduinoSA.IDE.stable -e
@@ -14,7 +17,6 @@ winget install --id=GIMP.GIMP -e
 winget install --id=Git.Git -e
 winget install --id=KiCad.KiCad -e
 winget install --id=Prusa3D.PrusaSlicer -e
-winget install --id=Prusa3D.PrusaSlicer.Alpha  -e
 winget install --id=SyncTrayzor.SyncTrayzor -e
 winget install --id=AivarAnnamaa.Thonny -e
 winget install --id=Ultimaker.Cura -e
