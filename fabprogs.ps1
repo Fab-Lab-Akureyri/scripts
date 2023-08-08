@@ -6,9 +6,6 @@ git pull
 # Remove Libre office
 winget uninstall TheDocumentFoundation.LibreOffice
 
-# Remove Prusa Slicer Alpha 
-Prusa3D.PrusaSlicer.Alpha
-
 # Install winget programs
 winget install --id=Adobe.Acrobat.Reader.64-bit  -e
 winget install --id=ArduinoSA.IDE.stable -e
