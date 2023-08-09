@@ -4,16 +4,15 @@ git pull
 # Run the script with admin powershell
 
 # Remove and clean Prusa Slicer Alpha
-winget uninstall Prusa3D.PrusaSlicer.Alpha
-$prusaAlphaPath = $env:LOCALAPPDATA + "\Microsoft\WinGet\Packages\Prusa3D.PrusaSlicer.Alpha*"
-Remove-Item $prusaAlphaPath -Verbose -Recurse
-
+# winget uninstall Prusa3D.PrusaSlicer.Alpha
+# $prusaAlphaPath = $env:LOCALAPPDATA + "\Microsoft\WinGet\Packages\Prusa3D.PrusaSlicer.Alpha*"
+# Remove-Item $prusaAlphaPath -Verbose -Recurse
 
 # Remove Libre office
-winget uninstall TheDocumentFoundation.LibreOffice
+# winget uninstall TheDocumentFoundation.LibreOffice
 
 # Install winget programs
-winget install --id=Adobe.Acrobat.Reader.64-bit  -e
+winget install --id=Adobe.Acrobat.Reader.64-bit -e
 winget install --id=ArduinoSA.IDE.stable -e
 winget install --id=Autodesk.EAGLE -e
 winget install --id=GIMP.GIMP -e
