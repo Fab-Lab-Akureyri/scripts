@@ -80,3 +80,5 @@ if(IsChocoAvailable){
 
 # Check for and install Windows Updates
 CheckAndInstallUpdates
+
+Restart-Computer
