@@ -79,6 +79,7 @@ Offical links here:
 - [ESP32.MPY-Jama](https://github.com/jczic/ESP32-MPY-Jama)
 - [Flatcam](https://github.com/jczic/ESP32-MPY-Jama)
 - [Wegstr](https://wegstr.com/) (PCB milling machines)
+- [Slicer for Fusion 360](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3yg7zznS94MHNDG7KMV8Qg.html)
 
 ### Further addons for Fab Lab setup
 
